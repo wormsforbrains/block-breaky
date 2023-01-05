@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "dev.kai",
+		"id": "blockbreaky",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"license": "MPL-2.0",
+			"name": "Block Breaky",
+			"description": "It break block good.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Kai": "Author"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/wormsforbrains/block-breaky",
+				"issues": "https://github.com/wormsforbrains/block-breaky/issues",
+				"sources": "https://github.com/wormsforbrains/block-breaky"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/blockbreaky/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "dev.kai.blockbreaky.BlockBreaky"
 		},
 		"depends": [
 			{
@@ -35,6 +36,5 @@
 				"versions": ">=1.19.3"
 			}
 		]
-	},
-	"mixin": "example_mod.mixins.json"
+	}
 }
